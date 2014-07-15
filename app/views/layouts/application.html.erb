@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BugZ</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+    BugZ - The Open Source, Lightweight Rails Bugtracker
+</header>
+
+
+<%= yield %>
+
+
+<footer>
+  &copy; 2014 Keiran Smith, License GNU GPLv3
+</footer>
+</body>
+</html>
